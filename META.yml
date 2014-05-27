@@ -3,6 +3,7 @@ abstract: 'word case conversion'
 author:
   - 'Eric Johnson (kablamo)'
 build_requires:
+  Data::Printer: 0
   Test::Most: 0
 configure_requires:
   CPAN::Meta: 0
@@ -28,13 +29,13 @@ no_index:
 provides:
   String::CamelSnakeKebab:
     file: lib/String/CamelSnakeKebab.pm
-    version: 0.01
+    version: 0.02
 requires:
   Sub::Exporter: 0
 resources:
   bugtracker: https://github.com/kablamo/perl-string-camelsnakekebab/issues
   homepage: https://github.com/kablamo/perl-string-camelsnakekebab
   repository: git://github.com/kablamo/perl-string-camelsnakekebab.git
-version: 0.01
+version: 0.02
 x_contributors:
   - 'Eric Johnson <eric.git@iijo.org>'

@@ -12,7 +12,7 @@ use Sub::Exporter -setup => { exports => [qw/
     http_header_case
 /]};
 
-our $VERSION = "0.01";
+our $VERSION = "0.02";
 
 our %UPPER_CASE_HTTP_HEADERS = map { $_ => 1 } 
     qw/ CSP ATT WAP IP HTTP CPU DNT SSL UA TE WWW XSS MD5 /;
@@ -125,7 +125,7 @@ is ported from the original Clojure.
 
 =head1 SEE ALSO
 
-The original Camel Snake Kebab clojure library: https://github.com/qerub/camel-snake-kebab
+The original Camel Snake Kebab Clojure library: L<https://github.com/qerub/camel-snake-kebab>
 
 =head1 AUTHOR
 
